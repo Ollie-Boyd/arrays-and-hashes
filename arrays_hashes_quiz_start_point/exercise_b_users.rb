@@ -73,3 +73,17 @@ p users["Erik"][:home_town] = "Edinburgh"
 # 9. Add a pet dog to Erik called "Fluffy"
 p users["Erik"][:pets].push({:name => "Fluffy", :species => "dog"})
 # 10. Add another person to the users hash
+bobs_data={"Bob" => {
+  :twitter => "bob'sbuns",
+  :lottery_numbers => [1, 14, 3, 38, 7, 25],
+  :home_town => "Aberdeen",
+  :pets => [
+    {
+      :name => "bill",
+      :species => "turtle"
+    }
+  ]
+}}
+users.merge!(bobs_data)
+
+p users
