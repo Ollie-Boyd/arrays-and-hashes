@@ -23,7 +23,7 @@ p stops.length()
 p stops[2]
 p stops.find{ |stop| stop=="Falkirk High"}
 p stops[-5]
-p stops[2...3] #OK it's an array 
+p stops[2...3] #OK it's an array not string 
 #9. Reverse the positions of the stops in the array
 stops.reverse()
 p stops

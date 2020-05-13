@@ -85,5 +85,5 @@ bobs_data={"Bob" => {
   ]
 }}
 users.merge!(bobs_data)
-
+puts
 p users
